@@ -1,0 +1,11 @@
+
+Navbar {
+    width: 100%;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-backface-visibilite: hidden;
+
+}
