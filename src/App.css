@@ -1,5 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-body {
-    font-family: 'Montserrat';
+@font-face {
+    font-family: 'alma-light';
+    src: local('alma-light'), url(assets/fonts/webfontkit/almamono-light-webfont.woff) format('woff');
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.container {
+    max-width: unset ;
+}
+
+.container-section {
+    width: 60%;
+}
+
+#container-holder-about {
+    background-color: #e3e3e3;
+}
+
+#container-holder-experience {
+    background-color: #e3e3e3;
+}
+
+#container-holder-projects {
+    background-color: white;
+}
+
+#container-holder-contact {
+    background-color: #e3e3e3;
+}
+
+#container-holder-footer {
+    background-color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+    .container-section {
+        width: 90%;
+    }
+  }

@@ -1,11 +1,20 @@
-
-Navbar {
-    width: 100%;
-    font-family: 'Montserrat';
-    text-transform: uppercase;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    -webkit-backface-visibilite: hidden;
-
+.nav-link {
+    color: white !important;
+    font-family: alma-light;
 }
+
+@media only screen and (min-width: 640px) {
+    .navbar {
+        justify-content: center !important;
+    }
+
+    #arman-nav {
+        color: #ebb734 !important;
+        font-weight: bolder;
+        font-size: 1.1em;
+    }
+
+    .nav-link {
+        font-size: 1.0em;
+    }
+  }
